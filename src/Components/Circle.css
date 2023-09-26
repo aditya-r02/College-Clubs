@@ -1,0 +1,81 @@
+.circle1{
+    animation: scaler 2.4s ease-in-out, circlet1 30s infinite linear 2.4s;
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.inner-circle{
+    width: 16rem;
+    height: 16rem;
+}
+
+@keyframes scaler {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes circlet1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circles1{
+    animation: circlest1 30s infinite linear 2.4s;
+}
+
+.circles1, .circles2{
+    width: 4rem;
+    height: 4rem;
+    z-index: 10;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+@keyframes circlest1 {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.circle2{
+    animation: circlet2 15s infinite linear 2.4s;
+    width: 8rem; height: 8rem;
+}
+
+@keyframes circlet2{
+    100%{
+        transform: rotate(-1.0turn);
+    }
+}
+
+.circles2{
+    animation: circlest2 30s infinite linear 2.4s;
+}
+
+@keyframes circlest2 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 850px){
+    .circle1{
+        width: 17rem; height: 17rem;
+    }
+    .inner-circle{
+        width: 14rem; height: 14rem;
+    }
+    .circle2{
+        width: 7rem; height: 7rem;
+    }
+    .circles1, .circles2{
+        height: 3rem; width: 3rem;
+    }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-section{
+    background-image: linear-gradient(to left bottom, #ffffff, #fafafe, #f3f6fe, #eaf3fd, #e0f0fb, #e0f0fb, #e0f0fb, #e0f0fb, #eaf3fd, #f3f6fe, #fafafe, #ffffff);
+}
+.slick-slide {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+
+

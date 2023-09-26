@@ -1,0 +1,13 @@
+.heroSection{
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+
+@media (max-width:900px){
+    .heroSection{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
